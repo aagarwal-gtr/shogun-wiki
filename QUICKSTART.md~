@@ -24,15 +24,15 @@ that some examples might depend on "shogun-data", which is approximately
 shogun itself, so you may skip downloading them.
 
 	$ cd "$HOME"
-	$ wget ftp://shogun-toolbox.org/shogun/releases/4.0/sources/shogun-4.0.0.tar.bz2
-	$ tar xjf shogun-4.0.0.tar.bz2
+	$ wget ftp://shogun-toolbox.org/shogun/releases/3.1/sources/shogun-3.1.1.tar.bz2
+	$ tar xjf shogun-3.1.1.tar.bz2
 
-	$ wget ftp://shogun-toolbox.org/shogun/data/shogun-data-0.9.tar.bz2
-	$ tar xjf shogun-data-0.9.tar.bz2
+	$ wget ftp://shogun-toolbox.org/shogun/data/shogun-data-0.7.tar.bz2
+	$ tar xjf shogun-data-0.7.tar.bz2
 
-	$ cd shogun-4.0.0
+	$ cd shogun-3.1.1
 	$ rm -rv data/
-	$ ln -s ../shogun-data-0.9 data
+	$ ln -s ../shogun-data-0.7 data
 
 ## Compile and install SHOGUN-TOOLBOX into home directory
 
@@ -40,7 +40,7 @@ We assume that you want to install shogun in a subdirectory `shogun-install` of
 your user home.  Installing shogun to system-directories is possible as well,
 but may require root/sudo privileges.
 
-	$ cd "$HOME/shogun-4.0.0"
+	$ cd "$HOME/shogun-3.1.1"
 
 	$ mkdir build
 	$ cd build
